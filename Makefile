@@ -7,7 +7,7 @@ PIP := $(VENV_DIR)/bin/pip
 ACTIVATE := source $(VENV_DIR)/bin/activate
 
 # Default target: set up environment and run
-all: venv install run
+all: venv install 
 
 # Create virtual environment if it doesn't exist
 venv:
