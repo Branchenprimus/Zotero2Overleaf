@@ -15,6 +15,8 @@ Make sure you have the following installed on your system:
 
 ```bash
 git clone https://github.com/Branchenprimus/Zotero2Overleaf.git
+```
+```bash
 cd Zotero2Overleaf
 ```
 
