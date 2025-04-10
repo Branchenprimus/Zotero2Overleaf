@@ -14,8 +14,8 @@ Make sure you have the following installed on your system:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/Branchenprimus/Zotero2Overleaf.git
+cd Zotero2Overleaf
 ```
 
 ### 2. Create and Populate the `.env` File
