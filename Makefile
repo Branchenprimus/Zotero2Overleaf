@@ -22,10 +22,9 @@ install: venv
 # Check for .env file
 check_env:
 	@if [ ! -f .env ]; then \
-		echo "❌ .env file not found."; \
-		echo "➡️  Please create one using:"; \
-		echo "    cp .env.example .env"; \
-		echo "Then edit .env, populate the required environment variables and execute: "make run""; \
+		echo "❌  .env file not found."; \
+		echo "➡️  Please create one using: cp .env.example .env"; \
+		echo "➡️  Then edit .env, populate the required environment variables and execute: "make run""; \
 		exit 1; \
 	fi
 
