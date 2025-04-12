@@ -32,13 +32,36 @@ Then open `.env` in a text editor and provide the required values:
 
 ```env
 ZOTERO_API_URL=https://api.zotero.org/users/123456/items?format=bibtex
-OVERLEAF_REPO_PATH=/absolute/path/to/your/overleaf/repo
-EXPORT_FILENAME=your_export.bib
-USERNAME=your_git_username
-PASSWORD=your_git_password_or_token
+OVERLEAF_REPO_PATH=/absolute/path/to/your/overleaf/repo (Local copy of your overleaf project)
+EXPORT_FILENAME=your_export.bib (Chose a location where the .bib file should be stored in your overleaf project - the path needs to exist)
+USERNAME=your_git_username (Optained in overleaf, usually it's just "git")
+PASSWORD=your_git_password_or_token (Optained via Account Settings under: https://www.overleaf.com/user/settings)
 ```
 
 > ⚠️ Do **not** commit your `.env` file. It contains sensitive credentials.
+
+### 2.1 Clone the Overleaf Repository
+
+If you haven't already cloned your Overleaf repository to your local machine, do so now:
+
+```bash
+git clone https://git.overleaf.com/your-overleaf-repo.git /absolute/path/to/your/overleaf/repo
+```
+
+Replace `/absolute/path/to/your/overleaf/repo` with the desired local path for your Overleaf repository. This path should match the value you set for `OVERLEAF_REPO_PATH` in the `.env` file.
+
+### 2.2 Install and Configure Better BibTeX for Zotero
+
+To enable the export functionality, you need to install and configure the Better BibTeX extension in Zotero:
+
+1. Download and install Better BibTeX from [GitHub](https://github.com/retorquere/zotero-better-bibtex).
+2. Open Zotero and navigate to `Tools > Add-ons`.
+3. Click on the gear icon and select `Install Add-on From File...`.
+4. Choose the downloaded `.xpi` file and follow the installation instructions.
+5. Restart Zotero to activate the extension.
+6. Configure Better BibTeX:
+   - Go to `Edit > Preferences > Better BibTeX`.
+   - Set up your citation key format and export preferences as needed.
 
 ### 3. Run the Project
 

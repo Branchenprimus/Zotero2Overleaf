@@ -8,7 +8,7 @@ ACTIVATE := source $(VENV_DIR)/bin/activate
 DEACTIVATE := deactivate
 
 # Default target: set up environment and run
-all: venv install check_env
+all: check_env venv install run
 
 # Create virtual environment if it doesn't exist
 venv:
@@ -21,15 +21,17 @@ install: venv
 
 # Check for .env file
 check_env:
-	@if [ ! -f .env ]; then \
+	@if [ -f .env ]; then \
+		echo "✅  .env file found."; \
+	else \
 		echo "❌  .env file not found."; \
-		echo "➡️  Please create one using: cp .env.example .env"; \
-		echo "➡️  Then edit .env, populate the required environment variables and execute: "make run""; \
-		exit 1; \
+		echo "➡️  Creating .env file from .env.example."; \
+		cp .env.example .env; \
+		echo "➡️  Please edit .env, populate the required environment variables and execute: \"make run\""; \
 	fi
 
 # Run the script inside the venv
-run:
+run: check_env
 	$(ACTIVATE) && python ./src/main.py && $(DEACTIVATE)
 
 # Clean up the venv
