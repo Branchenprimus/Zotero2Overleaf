@@ -1,6 +1,13 @@
-# Effortlessly Sync Your Zotero Library with Overleaf: Streamline your academic writing workflow by automating citation exports and Overleaf updates!
+# Zotero20verleaf: Effortlessly Sync Your Zotero Library with Overleaf
+
+
+<p align="center">
+  <img src="src/image.png" alt="Zotero20verleaf_logo" width="200"/>
+</p>
 
 # Project Setup and Usage
+
+> Streamline your academic writing workflow by automating citation exports and Overleaf updates!
 
 This repository contains a Python project with an automated setup using a `Makefile`. It includes a virtual environment, dependency management, and script execution.
 
@@ -111,3 +118,9 @@ The script automates the export and synchronization of a Zotero library with a l
 
 - This setup assumes a Unix-like environment (Linux or macOS).  
 - For Windows users, you may need to run the steps manually or use WSL (Windows Subsystem for Linux).
+
+
+> [!TIP]
+> I used this project to procrastinate my own thesis.
+
+> Powered by vibes only 👨‍💻🫶
