@@ -17,6 +17,8 @@ Make sure you have the following installed on your system:
 
 - Python 3 (`python3`)
 - `make` (standard on Linux/macOS)
+- Zotero
+- Better BibTeX for Zotero (see 2.2)
 
 ## Setup Instructions
 
