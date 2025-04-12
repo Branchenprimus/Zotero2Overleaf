@@ -1,3 +1,5 @@
+# Effortlessly Sync Your Zotero Library with Overleaf: Streamline your academic writing workflow by automating citation exports and Overleaf updates!
+
 # Project Setup and Usage
 
 This repository contains a Python project with an automated setup using a `Makefile`. It includes a virtual environment, dependency management, and script execution.
