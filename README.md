@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="src/image.png" alt="Zotero20verleaf_logo" width="200"/>
+  <img src="resources/image.png" alt="Zotero20verleaf_logo" width="200"/>
 </p>
 
 # Project Setup and Usage
