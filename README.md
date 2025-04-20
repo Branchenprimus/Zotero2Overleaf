@@ -7,7 +7,7 @@
 
 # Project Setup and Usage
 
-> Streamline your academic writing workflow by automating citation exports and Overleaf updates!
+> Streamline your academic writing workflow by automating library exports and Overleaf updates!
 
 This repository contains a Python project with an automated setup using a `Makefile`. It includes a virtual environment, dependency management, and script execution.
 
