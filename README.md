@@ -88,7 +88,7 @@ This will:
 1. Create a Python virtual environment in `./venv` (if it doesn’t exist)
 2. Activate the environment
 3. Install dependencies from `requirements.txt`
-4. Run the main script located in `./src/main.py`
+4. Run the sync_zotero_2_overleaf script located in `./src/sync_zotero_2_overleaf.py`
 
 ## What the Script Does
 
