@@ -1,0 +1,346 @@
+[
+  {
+    "citation_key": "10.5555/2771234.2771248",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "aggourCompoundKnowledgeGraphEnabled2022IntegrMaterManufInnov",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "auerDBpediaNucleusWeb2007TheSemanticWeb",
+    "issues": [
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "baekKnowledgeAugmentedLanguageModel2023Proc.FirstWorkshopMatchingUnstructuredStruct.DataMATCHING2023",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "beckettRDF11Turtle2014",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "beckettRDF12Turtle2025",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "berners-leeLinkeddataDesignIssues2006",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "berners-leeSemanticWebNew2001LinkingtheWorldsInformation",
+    "issues": [
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "bizerLinkedDataWeb2008Proc.17thInt.Conf.WorldWideWeb",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "bollackerFreebaseCollaborativelyCreated2008Proc.2008ACMSIGMODInt.Conf.Manag.Data",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "daiGenerativeAdversarialNetworks2020Knowledge-BasedSystems",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "farberLinkedDataQuality2017SW",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "gayoValidatingRDFData2018",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "greenBaseballAutomaticQuestionanswerer1961Pap.Present.May9-111961West.Jt.IRE-AIEE-ACMComput.Conf.-IRE-AIEE-ACM61West.",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "hornikMultilayerFeedforwardNetworks1989NeuralNetworks",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "jiDistantSupervisionRelation2017AAAI",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "jiSurveyHallucinationNatural2023ACMComput.Surv.",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "kaufmannHowUsefulAre2007TheSemanticWeb",
+    "issues": [
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "kimNaturalLanguageSQL2020Proc.VLDBEndow.",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "kobilarovMediaMeetsSemantic2009TheSemanticWeb:ResearchandApplications",
+    "issues": [
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "lehmannDBpediaLargescaleMultilingual2015SemanticWeb",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "lenatBuildingLargeKnowledgebased1990",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "lenatCycProgramsCommon1990Commun.ACM",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "leufWikiWayQuick2008",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "lopezEvaluatingQuestionAnswering2013JournalofWebSemantics",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "lopezQuestionAnsweringFit2011SemanticWeb",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "lukovnikovNeuralNetworkbasedQuestion2017Proc.26thInt.Conf.WorldWideWeb",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "minsky1969MarvinMinsky1988NeurocomputingVolume1",
+    "issues": [
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "perevalovMultilingualQuestionAnswering2024SW",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "perezSemanticsComplexitySPARQL2009ACMTrans.DatabaseSyst.",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "poessNewTPCBenchmarks2000SIGMODRec.",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "prudhommeauxShapeExpressionsRDF2014Proc.10thInt.Conf.SemanticSyst.",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "prudhommeauxSPARQL11Query2023W3CRecomm.",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)",
+      "Missing DOI for article entry (recommended)"
+    ]
+  },
+  {
+    "citation_key": "prudhommeauxSPARQLQueryLanguage2008",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "rabbaniSHACLShExWild2022CompanionProc.WebConf.2022",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "radfordLanguageModelsAre",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)",
+      "Missing DOI for article entry (recommended)"
+    ]
+  },
+  {
+    "citation_key": "rymanOSLCResourceShape2013LDOW",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)",
+      "Missing DOI for article entry (recommended)"
+    ]
+  },
+  {
+    "citation_key": "singhalIntroducingKnowledgeGraph2012",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)",
+      "Missing DOI for article entry (recommended)"
+    ]
+  },
+  {
+    "citation_key": "spin2011",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "suchanekYagoCoreSemantic2007Proc.16thInt.Conf.WorldWideWeb",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "taoIntegrityConstraintsOWL2010AAAI",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "universityofliechtensteinliechtensteinSpecialIssueEditorial2020JAIS",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "vrandecicWikidataFreeCollaborative2014Commun.ACM",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "w3csparqlworkinggroupSPARQL11Overview2013",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)",
+      "Author names likely not formatted correctly (surname first, initials after comma)"
+    ]
+  },
+  {
+    "citation_key": "websterTokenizationInitialPhase1992Proc.14thConf.Comput.Linguist.-",
+    "issues": [
+      "Missing mandatory field: year",
+      "Title should end with a period (.)"
+    ]
+  },
+  {
+    "citation_key": "yaghmazadehSQLizerQuerySynthesis2017Proc.ACMProgram.Lang.",
+    "issues": [
+      "Missing mandatory field: year",
+      "Missing mandatory field: journal",
+      "Title should end with a period (.)"
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-.PHONY: all venv install run clean check_env check_bib_health
+.PHONY: all check_venv install run clean check_env check_bib_health
 
 # Path to the virtual environment directory
 VENV_DIR := venv
@@ -8,14 +8,14 @@ ACTIVATE := source $(VENV_DIR)/bin/activate
 DEACTIVATE := deactivate
 
 # Default target: set up environment and run
-all: check_env venv install run check_bib_health
+all: check_env check_venv install run 
 
 # Create virtual environment if it doesn't exist
-venv:
-	@test -d $(VENV_DIR) || $(PYTHON) -m venv $(VENV_DIR)
+check_venv:
+	@test -d $(VENV_DIR) || $(PYTHON) -m check_venv $(VENV_DIR)
 
 # Install dependencies into the venv
-install: venv
+install: check_venv
 	$(PIP) install --upgrade pip
 	$(PIP) install -r requirements.txt
 
@@ -31,21 +31,26 @@ check_env:
 	fi
 
 # Run the sync script inside the venv
-run: check_env venv
-	@echo "Running Zotero2Overleaf Sync..."
-	$(ACTIVATE) && python ./src/sync_zotero_2_overleaf.py && $(DEACTIVATE)
+run: sync 
 
 # Clean up the venv
 clean:
 	rm -rf $(VENV_DIR)
 
+sync: check_env check_venv
+	@echo "Running Zotero2Overleaf Sync..."
+	$(ACTIVATE) && python ./src/sync_zotero_2_overleaf.py && $(DEACTIVATE)
+
 # Check BibTeX health after sync
-check_bib_health: venv
+# Check BibTeX health after sync
+check_bib_health: check_venv
 	@echo "Running BibTeX APA Health Check..."
 	$(ACTIVATE) && \
-	bibfile_path=$$(grep '^OVERLEAF_REPO_PATH=' .env | cut -d'=' -f2 | tr -d '"') && \
+	latex_path=$$(grep '^OVERLEAF_REPO_PATH=' .env | cut -d'=' -f2 | tr -d '"') && \
+	export_filename=$$(grep '^EXPORT_FILENAME=' .env | cut -d'=' -f2 | tr -d '"') && \
+	bibfile_path="$$latex_path/$$export_filename" && \
 	echo "Checking BibTeX file at: $$bibfile_path" && \
-	python ./src/check_bib_health.py "$$bibfile_path" && \
+	python ./src/check_bib_health.py "$$bibfile_path" "$$latex_path" && \
 	echo "✅ BibTeX health check passed!" || \
 	( echo "❌ BibTeX health check failed!" && $(DEACTIVATE) && exit 1 )
 	$(DEACTIVATE)
