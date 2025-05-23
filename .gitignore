@@ -5,3 +5,4 @@ library.bib
 # Ignore macOS system files
 .DS_Store
 sections/.DS_Store
+library/
